@@ -1,4 +1,4 @@
-// Chatgpt was used for assitance with button scramble and position logic
+// Chatgpt was used for assistance with button scramble and position logic
 class Game {
     constructor(ui, buttonManager) {
         this.ui = ui;
@@ -14,7 +14,7 @@ class Game {
     startGame() {
         const num = parseInt(this.ui.numInput.value);
         if (isNaN(num) || num < 3 || num > 7) {
-            alert("Please enter a valid number between 3 and 7.");
+            this.ui.displayMessage(messages.outOfRange);
             return;
         }
         
