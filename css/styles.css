@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    margin-top: 20px;
+    position: relative;
+    height: 80vh;
+}
+
+button.memory-btn {
+    height: 5em;
+    width: 10em;
+    position: absolute;
+}
+
+#go-button {
+    margin-left: 10px;
+}
