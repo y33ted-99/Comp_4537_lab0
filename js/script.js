@@ -37,7 +37,6 @@ class Game {
         let iterations = 0;
         const scrambleInterval = setInterval(() => {
             if (iterations === n) {
-                //clearInterval(scrambleInterval);
                 this.buttonManager.hideNumbers();
                 this.enableButtonClick();
                 return;
